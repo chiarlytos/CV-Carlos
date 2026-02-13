@@ -1,0 +1,127 @@
+/*RESET CSS BÁSICO, BASADO EN LA VERSIÓN 2.O DEL RESET.CSS DE ERIC
+MEYER*/
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, main, footer, header, hgroup, nav, section
+{
+display: block;
+}
+body
+{
+line-height: 1;
+}
+ol, ul
+{
+list-style: none;
+}
+table
+{
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+#contenedor {
+    width: 100%;
+    background-color: white;
+}
+.logo {
+    width: 45px;
+}
+
+.cabecera {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cabecera h1 {
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    color: #2f3e3e;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:  #795003;
+    display: grid;
+    gap: 18px;
+    margin-top: 18px;
+
+}
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.bloque {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    text-align: center;
+}
+.bloque img{
+    width: 100%;
+}
+
+.bloque2 {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    text-align: center;
+}
+
+.bloque2 video{
+    width: 100%;
+}
+
+.bloque3 {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    text-align: center;
+}
+.bloque3 img{
+    width: 100%;
+}
+
+.bloque4 {
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    text-align: center;
+}
+
+.bloque4 iframe{
+    width: 100%;
+    
+}
+
+.bloque img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.bloque .texto {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+
+@media (max-width: 700px) {
+    .bloques {
+        grid-template-columns: 1fr;
+    }
+}
+
